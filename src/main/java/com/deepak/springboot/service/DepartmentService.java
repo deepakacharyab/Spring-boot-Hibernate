@@ -8,5 +8,6 @@ public interface DepartmentService {
     public List<Department> getDepartment();
     public Department getDepartmentById(Long Id);
     public Department updateDepartment(Long Id, Department department);
+    public Department fetchDepartmentByName(String departmentName);
 
 }
