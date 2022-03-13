@@ -47,9 +47,7 @@ public class DepartmentServiceImpl implements  DepartmentService{
                 !"".equalsIgnoreCase(department.getDepartmentAddress())) {
             depDB.setDepartmentAddress(department.getDepartmentAddress());
         }
-
         return departmentRepository.save(depDB);
-
     }
 
     @Override
